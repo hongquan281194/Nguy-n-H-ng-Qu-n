@@ -1,0 +1,37 @@
+body{
+    background-image: url("../imgs/Blossom-and-Bird-wallpaper-grey-web.jpg");
+    background-repeat: no-repeat;
+    /* no-repeat repeat-x repeat-y */
+    background-size: cover;
+}
+h1{
+    color: #ff0000;/* rgb(255,0,0) */ màu
+    font-size: 50px;//cỡ chữ
+    font-family: SansSerif;//kiểu chữ
+    line-height: 1.5;//đô cao dòng
+    text-align: center;//căn lề
+    /* left center right justify */
+    text-decoration: none;//chữ có kiểu gạch chân, ngang, ko gạch
+    /* underline line-through overline none*/
+    text-transform: none;
+    /* uppercase lowercase capitalize none*/
+    /*border: 1px solid red;*/
+    /* solid dotted dashed*/
+    border-top: 1px solid red;//dường viền
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+p{
+    text-align: justify;
+    color: green;
+    font-weight: 400; //Độ dày hay mỏng của chữ
+    text-indent: 20px;
+    width: 600px;// độ rộng khối chữ
+    background-color: orange;//màu nền
+}
+img{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
